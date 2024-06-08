@@ -3,7 +3,7 @@ import pickle
 import requests
 
 # Set page title and background
-st.set_page_config(page_title="Movie recommendation system")
+st.set_page_config(page_title="Movie recommendation system", layout="wide")
 st.markdown(
     """
     <style>
@@ -13,6 +13,12 @@ st.markdown(
         }
         .body {
             background-color: rgba(0, 0, 0, 0) !important;
+        }
+        .stMarkdown h1 {
+            color: red !important;
+        }
+        .css-1cpxqw2 .stMarkdown p {
+            color: red !important;
         }
     </style>
     """,
